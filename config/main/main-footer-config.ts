@@ -3,7 +3,7 @@ import {
   GithubIcon,
   InstagramIcon,
   TwitterIcon,
-  YoutubeIcon,
+  YoutubeIcon
 } from "@/icons/socials";
 import { FooterType } from "@/types";
 import { default as mainCategoryConfig } from "./main-category-config";
@@ -13,64 +13,64 @@ const mainFooterConfig: FooterType = {
   pages: [
     {
       title: "Home",
-      slug: "/",
+      slug: "/"
     },
     {
       title: "About",
-      slug: "/about",
+      slug: "/about"
     },
     {
       title: "Docs",
-      slug: "/docs",
+      slug: "/docs"
     },
     {
       title: "Changelogs",
-      slug: "/changelogs",
+      slug: "/changelogs"
     },
     {
       title: "Contact",
-      slug: "/contact",
-    },
+      slug: "/contact"
+    }
   ],
 
   socials: [
     {
       name: "Facebook",
       url: "https://facebook.com",
-      icon: FacebookIcon,
+      icon: FacebookIcon
     },
     {
       name: "Github",
-      url: "https://github.com/timtbdev",
-      icon: GithubIcon,
+      url: "https://github.com/O-Reed",
+      icon: GithubIcon
     },
     {
       name: "Instagram",
       url: "https://instagram.com",
-      icon: InstagramIcon,
+      icon: InstagramIcon
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/timtbdev",
-      icon: TwitterIcon,
+      url: "https://twitter.com/O-Reed",
+      icon: TwitterIcon
     },
     {
       name: "Youtube",
       url: "https://youtube.com",
-      icon: YoutubeIcon,
-    },
+      icon: YoutubeIcon
+    }
   ],
   legals: [
     {
       title: "Terms",
-      slug: "/terms",
+      slug: "/terms"
     },
     {
       title: "Policy",
-      slug: "/policy",
-    },
+      slug: "/policy"
+    }
   ],
-  copyright: "© 2023 Fullstack Blogging App. All rights reserved.",
+  copyright: "© 2023 Fullstack Blogging App. All rights reserved."
 };
 
 export default mainFooterConfig;
